@@ -1,0 +1,28 @@
+/* Main.module.css */
+.book-card {
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .book-card {
+      width: calc(33.33% - 2rem);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .book-card {
+      width: calc(33.33% - 2rem);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .book-card {
+      width: calc(33.33% - 2rem);
+    }
+  }
+
+  
+
+  .ReactModal__Content.ReactModal__Content--after-open{
+    height: fit-content;
+  }
