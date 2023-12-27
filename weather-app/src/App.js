@@ -1,5 +1,12 @@
+import WeatherMain from "./components/WeatherMain";
+import './style.css'
+
 function App() {
-  return <div>App Start</div>;
+ 
+  return (
+  <div>
+    <WeatherMain />
+  </div>);
 }
 
 export default App;
